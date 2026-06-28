@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R & F Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+<header>
+    <h1>R & F Construction</h1>
+    <p>Building Quality. Creating Trust.</p>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+
+<section id="home" class="hero">
+    <h2>Welcome to R & F Construction</h2>
+
+    <p>
+        We specialize in residential and commercial construction,
+        remodeling, renovations, and custom building solutions.
+        Our mission is to deliver quality craftsmanship with
+        dependable service.
+    </p>
+
+    <button id="learnMoreBtn">Learn More</button>
+</section>
+
+<section id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="card">
+        <h3>Residential Construction</h3>
+        <p>
+            New homes, additions, garages, and complete remodeling.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Commercial Construction</h3>
+        <p>
+            Office renovations, retail spaces, and commercial buildings.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Roofing & Exterior</h3>
+        <p>
+            Roofing, siding, windows, decks, and outdoor improvements.
+        </p>
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>About Us</h2>
+
+    <p>
+        R & F Construction is committed to providing dependable,
+        affordable, and high-quality construction services. Our experienced
+        team works closely with every client to ensure each project is
+        completed safely, on time, and within budget.
+    </p>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form>
+
+        <label for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            required>
+
+        <label for="email">Email</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required>
+
+        <label for="message">Message</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 R & F Construction. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
